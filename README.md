@@ -1,1 +1,1 @@
-live website link is : https://mi-animate.netlify.app/
+live website link is : https://myentergy.netlify.app/
