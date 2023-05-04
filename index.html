@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a responsive animation website</title>
+
+    <link rel="shortcut icon" href="./assets/image/favicon.png" type="image/x-icon">
+    <!-- 
+        #GOOGLE FONTS
+     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!--    
+        #ION ICON LINK
+     -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- 
+        #AOS ANIMATE LINK
+     -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- 
+        #CUSTOM CSS LINK
+     -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <header class="header__section">
+
+        <div class="navbar__logo container" data-header-navbar>
+            <a href="#" class="logo" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-out">
+                <img src="./assets/image/logo.png" alt="logo">
+            </a>
+
+            <div class="navbar__btn" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="ease-in-out">
+                <button class="btn secondary">Log In</button>
+                <button class="btn primary">Sign In</button>
+            </div>
+        </div>
+
+        <div class="overlay" data-overlay></div>
+        <div class="container header__container">
+
+            <h1 class="header__heading" data-aos="zoom-in-down" data-aos-easing="ease-in-out" data-aos-duration="1200">
+                Meet our design team</h1>
+
+            <div class="navbar__bigScreen">
+
+                <div class="nav-toggler nav-open-icon" data-nav-open>
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+            </div>
+
+            <nav class="navbar" data-aos="zoom-in" data-aos-easing="ease-out" data-aos-duration="1300" data-navbar>
+
+
+                <div class="top-navbar">
+                    <a href="#" class="logo">
+                        <img src="./assets/image/logo.png" alt="logo">
+                    </a>
+
+                    <div class="nav-toggler nav-close-icon" data-nav-close>
+                        <ion-icon name="close-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <ul class="navlist">
+
+                    <li>
+                        <a href="#">About us</a>
+                    </li>
+
+                    <li>
+                        <a href="#">News</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Reviews</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Articles</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Future</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <div class="img__holder">
+                <img data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1500"
+                    class="img__cover left" src="./assets/image/asset 1.png" alt="header_img">
+            </div>
+
+            <div class="img__holder">
+                <img data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1500"
+                    class="img__cover right" src="./assets/image/asset 2.png" alt="header_img ">
+            </div>
+
+            <div class="img__holder">
+                <img data-aos="fade-up-right" data-aos-easing="ease-in-out" data-aos-duration="1500"
+                    class="img__cover bottom-left" src="./assets/image/asset 3.png" alt="header_img ">
+            </div>
+
+            <div class="img__holder">
+                <img data-aos="fade-up-left" data-aos-easing="ease-in-out" data-aos-duration="1500"
+                    class="img__cover bottom-right" src="./assets/image/asset 4.png" alt="header_img">
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- 
+        #ABOUT SECTION
+     -->
+    <section class="about__section section__padding">
+        <div class="about__container container">
+
+            <h2 class="common__heading" data-aos="zoom-out" data-aos-duration="1600" data-aos-offset="ease-in">Design
+                and
+                Development For Your Business</h2>
+
+            <div class="abouts">
+
+                <div class="about">
+
+                    <img src="./assets/image/asset 5.png" data-aos="fade-right" data-aos-duration="900"
+                        data-aos-easing="ease-in-out" alt="About_img">
+
+                    <div class="about__text" data-aos="fade-left" data-aos-duration="900" data-aos-easing="ease-in-out">
+                        <h3>1. STRATEGY</h3>
+                        <p>Sample text. Click to select the text box. Click again or double click to start editing the
+                            text.</p>
+                    </div>
+
+                </div>
+
+                <div class="about">
+
+                    <img src="./assets/image/asset 7.png" data-aos="fade-right" data-aos-duration="900"
+                        data-aos-easing="ease-in-out" alt="About_img">
+
+                    <div class="about__text" data-aos="fade-left" data-aos-duration="900" data-aos-easing="ease-in-out">
+                        <h3>3. DESIGN</h3>
+                        <p>Sample text. Click to select the text box. Click again or double click to start editing the
+                            text.</p>
+                    </div>
+
+                </div>
+
+                <div class="about">
+
+                    <img src="./assets/image/asset 6.png" data-aos="fade-right" data-aos-duration="900"
+                        data-aos-easing="ease-in-out" alt="About_img">
+
+                    <div class="about__text" data-aos="fade-left" data-aos-duration="900" data-aos-easing="ease-in-out">
+                        <h3>4. MARKETING</h3>
+                        <p>Sample text. Click to select the text box. Click again or double click to start editing the
+                            text.</p>
+                    </div>
+
+                </div>
+
+                <div class="about">
+
+                    <img src="./assets/image/asset 8.png" data-aos="fade-right" data-aos-duration="900"
+                        data-aos-easing="ease-in-out" alt="About_img">
+
+                    <div class="about__text" data-aos="fade-left" data-aos-duration="900" data-aos-easing="ease-in-out">
+                        <h3>1. STRATEGY</h3>
+                        <p>Sample text. Click to select the text box. Click again or double click to start editing the
+                            text.</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="services__section section__padding">
+
+        <h2 class="common__heading" data-aos="zoom-out" data-aos-duration="1600" data-aos-offset="ease-in">How we work
+        </h2>
+
+        <div class="container services__container" data-aos="zoom-out" data-aos-duration="1200"
+            data-aos-easing="ease-in-out">
+
+            <img src="./assets/image/about.png" alt="service image">
+
+            <div class="services">
+
+                <div class="service" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out">
+                    <h4>01</h3>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.</p>
+                </div>
+
+                <div class="service servicebg" data-aos="fade-down" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                    <h4>02</h3>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.</p>
+                </div>
+
+                <div class="service" data-aos="fade-down" data-aos-duration="1500" data-aos-easing="ease-in-out">
+                    <h4>03</h3>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.</p>
+                </div>
+
+                <div class="service servicebg" data-aos="fade-down" data-aos-duration="2000"
+                    data-aos-easing="ease-in-out">
+                    <h4>04</h3>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 
+        #REVIEW SECTION
+     -->
+    <section class="reviews__section section__padding">
+
+        <div class="reviews__container container">
+            <div class="review">
+                <h4>Digital design</h4>
+                <p>Lectus sit amet est placerat in egestas. Integer eget aliquet nibh praesent tristique magna sit.
+                    Congue quisque egestas diam in arcu cursus.</p>
+                <button class="btn primary">Read More</button>
+            </div>
+
+            <div class="review__img first" data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-out">
+                <img src="./assets/image/asset 2.png" alt="review image">
+            </div>
+
+            <div class="review__img second" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="ease-in-out">
+                <img src="./assets/image/asset 9.png" alt="review image">
+            </div>
+
+            <div class="review__img" data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-out">
+                <img src="./assets/image/asset 1.png" alt="review image">
+            </div>
+
+            <div class="review__img circle" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-out">
+                <img src="./assets/image/asset 4.png" alt="review image">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- 
+        #WHAT WE DO
+      -->
+    <section class="works__section section__padding">
+
+        <div class="works__container container">
+            <img data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-out" class="work__circle_img"
+                src="./assets/image/asset 2.png" alt="work image">
+
+            <div class="work" data-aos="zoom-in-down" data-aos-duration="1200" data-aos-easing="ease-in-out">
+                <img src="./assets/image/asset 10.png" alt="work image">
+
+                <div class="work__text">
+                    <h3>What We Do</h3>
+                    <p>Habitant morbi tristique senectus et. Nec dui nunc mattis enim ut tellus. Semper auctor neque
+                        vitae tempus quam pellentesque nec nam aliquam. </p>
+                    <button class="btn primary">Learn More</button>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <div class="work__botttom_img section__padding">
+        <div class="first">
+            <img data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-in-out"
+                src="./assets/image/asset 9.png" alt="work image">
+        </div>
+
+        <div class="second">
+            <img data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-in-out"
+                src="./assets/image/asset 1.png" alt="work image">
+        </div>
+    </div>
+
+    <!-- 
+        #SERVICE SECTION
+     -->
+    <section class="contact__section section__padding">
+        <div class="contact__container container">
+
+            <div class="contacts"  data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
+
+                <div class="top__cotnact">
+                    <div class="top__contact__text">
+                        <h3>We're a team of makers, a nimble studio of designers and developers</h3>
+                    </div>
+
+                    <div class="top__contact__text2">
+
+                        <p>Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo
+                            sagittis suscipit ultrices. Pretium viverra suspendisse potenti nullam ac tortor vitae purus
+                            faucibus. Dui faucibus in ornare quam viverra orci sagittis eu volutpat. Rutrum tellus
+                            pellentesque eu tincidunt tortor aliquam.
+
+                        </p>
+
+                        <div class="contact__social">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                            <ion-icon name="logo-twitter"></ion-icon>
+                            <ion-icon name="logo-instagram"></ion-icon>
+                            <ion-icon name="logo-google"></ion-icon>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section class="section__padding contact__forms">
+
+
+        <div class="contacts__form">
+
+            <div class="contact__images">
+                <img data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out" class="first" src="./assets/image/asset 10.png" alt="">
+                <img  data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out"  class="second" src="./assets/image/asset 4.png" alt="">
+                <img data-aos="zoom-out-left" data-aos-duration="1000" data-aos-easing="ease-in-out"  class="third" src="./assets/image/asset 2.png" alt="">
+                <img data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out"  class="four" src="./assets/image/asset 1.png" alt="">
+            </div>
+
+            <form class="form" data-aos="zoom-out" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <p>
+                    <input type="text" placeholder="Enter Your Name..">
+                </p>
+                <p>
+                    <input type="text" placeholder="Enter Valid Email..">
+                </p>
+                <p>
+                    <textarea cols="30" rows="10" placeholder="Enter Your Message.."></textarea>
+                </p>
+                
+                <p class="checkboxp">
+                    <input class="checkbox" type="checkbox"> <span>I accept the terms of Service</span>
+                </p>
+
+                <button class="btn primary">Submit</button>
+            </form>
+        </div>
+
+    </section>
+    
+    <footer class="footer__section">
+        <div class="footer__container  section__padding">
+
+            <div class="top__footer">
+
+                <a href="#" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out" >
+                    <img src="./assets/image/favicon.png" alt=""><span>entergy</span>
+                </a>
+
+                <div class="footer__icon">
+                    <ion-icon data-aos="fade-down" data-aos-duration="800" data-aos-easing="ease-in-out"   name="logo-facebook"></ion-icon>
+                    <ion-icon data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-out"  name="logo-twitter"></ion-icon>
+                    <ion-icon data-aos="fade-down" data-aos-duration="1200" data-aos-easing="ease-in-out"  name="logo-instagram"></ion-icon>
+                    <ion-icon data-aos="fade-down" data-aos-duration="1400" data-aos-easing="ease-in-out"  name="logo-linkedin"></ion-icon>
+                    <ion-icon data-aos="fade-down" data-aos-duration="1600" data-aos-easing="ease-in-out"  name="logo-youtube"></ion-icon>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="footer__links" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+
+                <div class="footer__link">
+                    <ul>Company</ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Contact us</li>
+                    <li>Get started</li>
+                </div>
+
+                <div class="footer__link">
+                    <ul>Services</ul>
+                    <li>Web design</li>
+                    <li>App design</li>
+                    <li>Banner design</li>
+                    <li>Logo design</li>
+                </div>
+
+                <div class="footer__link">
+                    <ul>Account</ul>
+                    <li>Profile</li>
+                    <li>My account</li>
+                    <li>Preferences</li>
+                    <li>Purchase</li>
+                </div>
+
+                <div class="footer__link">
+                    <ul>Company</ul>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>Photography</li>
+                    <li>Photoshop</li>
+                </div>
+
+                <div class="footer__forms">
+                    <ul>Subscribe us</ul>
+                    <input type="text" placeholder="Enter Your Email...">
+                    <button class="btn">Subscribe</button>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- 
+        #CUSTOM JS 
+     -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+        #SCRIPT SRC OF AOS ANIMATE LINK
+     -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</body>
+
+</html>
